@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: rgb(5, 124, 5);
+}
+.form-container {
+    margin-bottom: 20px;
+}
+input, select, button {
+    margin: 5px;
+    padding: 5px;
+    /* color: #fff; */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+.summary {
+    border: 1px solid #ddd;
+    padding: 10px;
+    color: #fff;
+}
